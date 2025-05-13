@@ -34,9 +34,7 @@ function Navbar() {
         <ul className="hidden md:flex text-sm md:text-base text-slate-300 flex-row items-center gap-5">
           {[
             { name: "Features", href: "#features" },
-            { name: "Solution", href: "#solution" },
             { name: "Pricing", href: "#pricing" },
-            { name: "About", href: "#about" },
           ].map((item) => (
             <li key={item.name}>
               <a
